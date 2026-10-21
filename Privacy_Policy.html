@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CountDay Privacy Policy</title>
+<meta name="description" content="CountDay — Days Until. We collect no data. Everything stays on your device.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234A44E6'/%3E%3Cstop offset='1' stop-color='%23806BE8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-family='-apple-system,sans-serif' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3E24%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#ffffff;
+    --bg-alt:#fafbfd;
+    --ink:#1a1d29;
+    --ink-soft:#3a3f4e;
+    --ink-mute:#6b7280;
+    --brand:#5856d6;
+    --brand-ink:#3f3cb8;
+    --line:#e6e8f1;
+    --chip-bg:#eeeffc;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.7;
+    font-size:16px;
+  }
+  a{color:var(--brand-ink);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  /* header */
+  header.site{
+    position:sticky;top:0;z-index:10;
+    background:rgba(255,255,255,.92);
+    -webkit-backdrop-filter:saturate(180%) blur(8px);
+    backdrop-filter:saturate(180%) blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .header-inner{
+    max-width:760px;margin:0 auto;padding:14px 20px;
+    display:flex;align-items:center;gap:12px;
+  }
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px}
+  .brand-mark{width:30px;height:30px;border-radius:8px;flex:none}
+  .brand small{display:block;font-weight:500;color:var(--ink-mute);font-size:12px;line-height:1.2}
+
+  /* lang toggle */
+  .lang{
+    margin-left:auto;
+    display:inline-flex;background:var(--bg-alt);border:1px solid var(--line);
+    border-radius:999px;padding:3px;
+  }
+  .lang button{
+    border:0;background:transparent;font:inherit;font-size:13px;font-weight:600;
+    color:var(--ink-mute);padding:5px 14px;border-radius:999px;cursor:pointer;
+  }
+  .lang button.on{background:var(--brand);color:#fff}
+
+  main{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+
+  /* lead */
+  .lead h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 10px;letter-spacing:-.01em}
+  .lead p.sub{color:var(--ink-soft);font-size:17px;margin:0 0 18px}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+  .chip{
+    background:var(--chip-bg);color:var(--brand-ink);
+    border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;
+  }
+  .chip.plain{background:var(--bg-alt);color:var(--ink-mute);border:1px solid var(--line)}
+
+  .promise{
+    background:linear-gradient(135deg,rgba(88,86,214,.08),rgba(128,107,232,.10));
+    border:1px solid var(--line);
+    border-left:3px solid var(--brand);
+    border-radius:var(--radius);
+    padding:18px 20px;margin-bottom:36px;
+  }
+  .promise p{margin:0;font-size:15px;color:var(--ink-soft)}
+  .promise b{color:var(--ink)}
+
+  section.clause{
+    padding:22px 0;border-top:1px solid var(--line);
+    display:grid;grid-template-columns:44px 1fr;gap:4px 16px;
+  }
+  section.clause .no{
+    font-variant-numeric:tabular-nums;
+    color:var(--brand);font-weight:700;font-size:14px;line-height:1.6;
+  }
+  section.clause h2{margin:0;font-size:18px;line-height:1.5;color:var(--ink)}
+  section.clause p{margin:8px 0 0;color:var(--ink-soft);font-size:15px}
+  section.clause ul{margin:8px 0 0;padding-left:0;list-style:none}
+  section.clause li{position:relative;padding-left:20px;color:var(--ink-soft);font-size:15px;margin-top:6px}
+  section.clause li::before{
+    content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;
+    border-radius:50%;background:var(--brand);opacity:.7;
+  }
+
+  .updated{margin-top:36px;color:var(--ink-mute);font-size:13px}
+
+  footer.site{border-top:1px solid var(--line);background:var(--bg-alt)}
+  .footer-inner{max-width:760px;margin:0 auto;padding:26px 20px;color:var(--ink-mute);font-size:13px}
+  .footer-inner b{color:var(--ink)}
+
+  [lang="zh"]{display:none}
+  body.zh [lang="en"]{display:none}
+  body.zh [lang="zh"]{display:block}
+
+  @media (max-width:520px){
+    section.clause{grid-template-columns:34px 1fr}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto!important}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="header-inner">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#4A44E6"/><stop offset="1" stop-color="#806BE8"/>
+        </linearGradient></defs>
+        <rect width="64" height="64" rx="14" fill="url(#gm)"/>
+        <text x="32" y="44" font-family="-apple-system,sans-serif" font-size="30" font-weight="700" fill="#fff" text-anchor="middle">24</text>
+      </svg>
+      <span>CountDay<small>Days Until</small></span>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" class="on" onclick="setLang('en')">EN</button>
+      <button type="button" id="lang-zh" onclick="setLang('zh')">中文</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="lead" lang="en">
+    <h1>CountDay Privacy Policy</h1>
+    <p class="sub">CountDay — Days Until · iOS</p>
+    <div class="meta">
+      <span class="chip">Effective: 2026-10-17</span>
+      <span class="chip plain">Data: Not Collected</span>
+    </div>
+  </div>
+  <div class="lead" lang="zh">
+    <h1>CountDay 隐私政策</h1>
+    <p class="sub">CountDay — Days Until · iOS</p>
+    <div class="meta">
+      <span class="chip">生效日期：2026-10-17</span>
+      <span class="chip plain">数据：不收集</span>
+    </div>
+  </div>
+
+  <div class="promise" lang="en">
+    <p><b>We collect no data.</b> This is not a phrase — it is the actual design of this app. No account, no analytics, no ads, no cross-app tracking.</p>
+  </div>
+  <div class="promise" lang="zh">
+    <p><b>我们不收集你的任何数据。</b>这不是套话，而是本 App 的真实实现：没有账号、没有分析、没有广告、没有跨 App 追踪。</p>
+  </div>
+
+  <!-- ===== 英文条款 ===== -->
+  <div lang="en">
+    <section class="clause">
+      <span class="no">01</span>
+      <div>
+        <h2>No data collection</h2>
+        <p>CountDay does not collect, store, transmit, or share any personal information. There is no account system, no registration, no analytics, and no advertising.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">02</span>
+      <div>
+        <h2>Where your data lives</h2>
+        <ul>
+          <li>All countdown data you create is stored <b>locally on your device</b> only.</li>
+          <li>Nothing you enter in the app is sent to us or to any third party.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">03</span>
+      <div>
+        <h2>In-App Purchases</h2>
+        <ul>
+          <li>CountDay Pro is sold through Apple's <b>StoreKit</b> (App Store).</li>
+          <li>Payment and transaction handling is performed entirely by <b>Apple</b>.</li>
+          <li>We never receive or process your payment details.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">04</span>
+      <div>
+        <h2>Widgets</h2>
+        <p>The countdown widgets are local too. They display only the data already on your device.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">05</span>
+      <div>
+        <h2>Children's Privacy</h2>
+        <p>The app does not collect personal information from anyone, including children under 13, so there is no data to protect or share.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">06</span>
+      <div>
+        <h2>No tracking</h2>
+        <p>The app does not use any tracking technologies, advertising identifiers, or third-party SDKs that collect data.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">07</span>
+      <div>
+        <h2>Your rights</h2>
+        <p>Because we hold no data about you, there is nothing to access, correct, or delete on our side. To remove your data, simply delete the app or its countdowns on your device.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">08</span>
+      <div>
+        <h2>Changes</h2>
+        <p>If this policy ever changes, we will update the effective date above. Any future version that begins collecting data will only do so with your consent.</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">09</span>
+      <div>
+        <h2>Contact</h2>
+        <p>If you have questions about this policy, please contact us at <a href="mailto:rubbishonline@126.com">rubbishonline@126.com</a>.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== 中文条款 ===== -->
+  <div lang="zh">
+    <section class="clause">
+      <span class="no">01</span>
+      <div>
+        <h2>不收集任何数据</h2>
+        <p>本应用不收集、不存储、不传输、不分发任何个人信息。没有账号系统、没有注册、没有统计分析、没有广告。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">02</span>
+      <div>
+        <h2>数据存放位置</h2>
+        <ul>
+          <li>你创建的倒数日数据<b>仅存储在你自己设备本地</b>。</li>
+          <li>你在应用中输入的任何内容，都不会发送给我们或任何第三方。</li>
+        </ul>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">03</span>
+      <div>
+        <h2>内购</h2>
+        <ul>
+          <li>CountDay Pro 通过 Apple 的 <b>StoreKit（App Store）</b> 销售。</li>
+          <li>支付与交易完全由 <b>Apple</b> 处理。</li>
+          <li>我们不会获取或处理你的支付信息。</li>
+        </ul>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">04</span>
+      <div>
+        <h2>小组件</h2>
+        <p>小组件同样是本地的，只展示设备上已有的数据。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">05</span>
+      <div>
+        <h2>儿童隐私</h2>
+        <p>本应用不收集任何人（含 13 岁以下儿童）的个人信息，因此不存在可保护或可分享的数据。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">06</span>
+      <div>
+        <h2>无追踪</h2>
+        <p>本应用不使用任何追踪技术、广告标识符或收集数据的三方 SDK。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">07</span>
+      <div>
+        <h2>你的权利</h2>
+        <p>由于我们并不持有你的任何数据，我们这边没有需要查阅、更正或删除的内容。要删除你的数据，直接删除应用或其中的倒数日即可。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">08</span>
+      <div>
+        <h2>政策变更</h2>
+        <p>若政策变更，我们会更新上述生效日期。未来任何开始收集数据的版本，只会在征得你同意后进行。</p>
+      </div>
+    </section>
+    <section class="clause">
+      <span class="no">09</span>
+      <div>
+        <h2>联系方式</h2>
+        <p>如有疑问，请邮件联系：<a href="mailto:rubbishonline@126.com">rubbishonline@126.com</a>。</p>
+      </div>
+    </section>
+  </div>
+
+  <p class="updated" lang="en">Last updated: 2026-10-17</p>
+  <p class="updated" lang="zh">最后更新：2026-10-17</p>
+</main>
+
+<footer class="site">
+  <div class="footer-inner">
+    <span lang="en"><b>CountDay — Days Until.</b> Everything stays on your device.</span>
+    <span lang="zh"><b>CountDay — Days Until。</b>一切数据都留在你的设备上。</span>
+  </div>
+</footer>
+
+<script>
+  function setLang(l){
+    document.body.classList.toggle('zh', l === 'zh');
+    document.getElementById('lang-en').classList.toggle('on', l === 'en');
+    document.getElementById('lang-zh').classList.toggle('on', l === 'zh');
+  }
+</script>
+</body>
+</html>
